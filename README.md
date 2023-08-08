@@ -22,13 +22,29 @@ Vote_Count: The total number of votes received.
 
 **Usage**
 
-The Popular English Movies Dataset (2023) offers a wealth of opportunities for exploration and innovation in the realms of Data Science and Machine Learning. Here are some exciting ways to utilize and contribute to the dataset:
+1. The Popular English Movies Dataset (2023) offers a wealth of opportunities for exploration and innovation in the realms of Data Science and Machine Learning. Here are some exciting ways to utilize and contribute to the dataset:
 
-Genre Prediction Model: Leveraging the 'overview' and 'title' features, data enthusiasts can build powerful Natural Language Processing (NLP) models to predict movie genres. By analyzing the movie summaries and titles, learners can gain insights into the relationships between textual data and movie genres, enabling more accurate genre predictions.
+2. Genre Prediction Model: Leveraging the 'overview' and 'title' features, data enthusiasts can build powerful Natural Language Processing (NLP) models to predict movie genres. By analyzing the movie summaries and titles, learners can gain insights into the relationships between textual data and movie genres, enabling more accurate genre predictions.
 
-Movie Recommender System: The dataset serves as a fantastic foundation for constructing a movie recommender system. By applying collaborative filtering or content-based filtering techniques, learners can develop personalized recommendations for users based on their preferences, leading to enhanced movie discovery experiences.
+3. Movie Recommender System: The dataset serves as a fantastic foundation for constructing a movie recommender system. By applying collaborative filtering or content-based filtering techniques, learners can develop personalized recommendations for users based on their preferences, leading to enhanced movie discovery experiences.
 
-Popularity Analysis: Utilizing the 'vote_count' and 'vote_average' features, learners can delve into the factors influencing a movie's popularity. Through data exploration and visualization, one can uncover trends and patterns that contribute to a movie's overall appeal among viewers.
+4. Popularity Analysis: Utilizing the 'vote_count' and 'vote_average' features, learners can delve into the factors influencing a movie's popularity. Through data exploration and visualization, one can uncover trends and patterns that contribute to a movie's overall appeal among viewers.
+
+**And I choosed number 4**
+
+I trained a random forest model with these scores:
+
+R^2=0.033
+
+mean absolute error=0.681
+
+mean square error=0.753
+
+root mean squared error=0.868
+
+mean signed difference=0.041
+
+mean absolute percentage error=0.114
 
 **Source**
 
